@@ -20,7 +20,7 @@
 
     @foreach($pictures as $picture)
         <div class="pictures">
-        <img class = "images" src='{{asset("storage/images/$picture->fileName")}}' alt="{{$picture->Alt}}" width="200"
+        <img class = "images" src='storage/images/{{$picture->fileName}}' alt="{{$picture->Alt}}" width="200"
              height="80">
 
 
