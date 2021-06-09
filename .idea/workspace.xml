@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c76b579d-ab04-4680-a88c-ee29fa96d6a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PictureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PictureController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/VideoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/VideoSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/common/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/common/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/common/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/common/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/videos/videos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/videos/videos.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +150,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fourth-quartile-website" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="terminal" />
@@ -215,7 +212,8 @@
       <workItem from="1623102005305" duration="9000" />
       <workItem from="1623103066913" duration="77000" />
       <workItem from="1623237405380" duration="885000" />
-      <workItem from="1623254620067" duration="358000" />
+      <workItem from="1623254620067" duration="1595000" />
+      <workItem from="1623270476494" duration="4564000" />
     </task>
     <servers />
   </component>
