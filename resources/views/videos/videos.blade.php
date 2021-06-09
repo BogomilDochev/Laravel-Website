@@ -18,7 +18,7 @@
     </section>
     @foreach($videos as $video)
         <div class="videos">
-            <iframe class="video-border" width="560" height="315" src="{{$video->URL}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/{{ explode('=', $video->URL)[1] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         @if(Auth::user())
             <form class = "form" method="POST" action="/videos/{{ $video->id }}">

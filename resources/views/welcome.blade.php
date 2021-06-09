@@ -18,9 +18,9 @@
         <h1>What can you find here?</h1>
         <p>Here is the place where you can find funny youtube videos:</p>
         <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/VB4CCHHYOqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="welcomePageText">and funny pictures:</p>
-        <img class = "welcomeImage"  src="{{asset("images/elena-cordery-RLlcbkemwnw-unsplash.jpg")}}" alt="Pineapple with sunglasses" width="200"
-             height="80">
+{{--        <p class="welcomePageText">and funny pictures:</p>--}}
+{{--        <img class = "welcomeImage"  src="{{asset("images/elena-cordery-RLlcbkemwnw-unsplash.jpg")}}" alt="Pineapple with sunglasses" width="200"--}}
+{{--             height="80">--}}
     </div>
 
 @endsection

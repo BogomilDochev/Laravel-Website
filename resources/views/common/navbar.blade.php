@@ -23,10 +23,10 @@
                 YouTube videos
             </a>
 
-            <a href="/pictures"
-               class="navbar-item {{ Request::path() === 'pictures' ? "is-active" : "" }}">
-                Pictures
-            </a>
+{{--            <a href="/pictures"--}}
+{{--               class="navbar-item {{ Request::path() === 'pictures' ? "is-active" : "" }}">--}}
+{{--                Pictures--}}
+{{--            </a>--}}
 
         </div>
 

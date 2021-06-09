@@ -29,6 +29,6 @@ Route::get('/dashboard', function () {
 
 Route::resource('/videos', VideoController::class)->name('*','videos.videos');
 
-Route::resource('/pictures', PictureController::class);
+//Route::resource('/pictures', PictureController::class);
 
 require __DIR__.'/auth.php';
