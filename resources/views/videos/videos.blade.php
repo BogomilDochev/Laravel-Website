@@ -1,3 +1,20 @@
+<?php
+    function getYoutubeEmbedUrl($url)
+    {
+        $shortUrlRegex = '/youtu.be\/([a-zA-Z0-9_-]+)\??/i';
+        $longUrlRegex = '/youtube.com\/((?:embed)|(?:watch))((?:\?v\=)|(?:\/))([a-zA-Z0-9_-]+)/i';
+
+        if (preg_match($longUrlRegex, $url, $matches)) {
+        $youtube_id = $matches[count($matches) - 1];
+        }
+
+        if (preg_match($shortUrlRegex, $url, $matches)) {
+        $youtube_id = $matches[count($matches) - 1];
+        }
+        return 'https://www.youtube.com/embed/' . $youtube_id ;
+    }
+?>
+
 @extends('common.master')
 
 @section('content')
@@ -23,9 +40,10 @@
         </div>
     </section>
 
+
     @foreach($videos as $video)
         <div class="videos">
-            <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/{{ explode('=', $video->URL)[1] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-border" width="560" height="315" src={{getYoutubeEmbedUrl($video->URL)}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         @if(Auth::user())
             <form class = "form" method="POST" action="/videos/{{ $video->id }}">
@@ -36,7 +54,7 @@
         @endif
         </div>
     @endforeach
-    
+
     <footer class="footer has-background-warning-light">
         <div class="content has-text-centered">
             <p>

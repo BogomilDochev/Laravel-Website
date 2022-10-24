@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c76b579d-ab04-4680-a88c-ee29fa96d6a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/common/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/common/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/videos/videos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/videos/videos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fourth-quartile-website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="terminal" />
@@ -213,7 +211,16 @@
       <workItem from="1623103066913" duration="77000" />
       <workItem from="1623237405380" duration="885000" />
       <workItem from="1623254620067" duration="1595000" />
-      <workItem from="1623270476494" duration="4564000" />
+      <workItem from="1623270476494" duration="5641000" />
+      <workItem from="1623360177752" duration="169000" />
+      <workItem from="1623881563274" duration="1331000" />
+      <workItem from="1623896227831" duration="3000" />
+      <workItem from="1623896700621" duration="636000" />
+      <workItem from="1625047336237" duration="152000" />
+      <workItem from="1625047505878" duration="503000" />
+      <workItem from="1665400586435" duration="1640000" />
+      <workItem from="1666640683574" duration="311000" />
+      <workItem from="1666641129983" duration="693000" />
     </task>
     <servers />
   </component>
